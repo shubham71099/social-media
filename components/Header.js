@@ -1,7 +1,5 @@
 import Image from "next/image";
 import profile from "../images/profile.jpg";
-import logo from "../images/applogo.png";
-import logo1 from "../images/logo1.png";
 import logo2 from "../images/logo2.png";
 import {
   BellIcon,
@@ -35,10 +33,10 @@ function Header() {
           layout="fixed"
           className="rounded-full cursor-pointer"
         />
-        <div className="flex ml-4 items-center rounded-full bg-indigo-100 p-2">
+        <div className="flex mr-12 ml-4 items-center rounded-full bg-indigo-100 p-2">
           <SearchIcon className="h-4 md:h-6 text-gray-600" />
           <input
-            className="ml-2 mr-0 inline-flex flex-shrink items-center bg-transparent outline-none placeholder-gray-500"
+            className="ml-2 inline-flex flex-shrink items-center bg-transparent outline-none placeholder-gray-500"
             type="text"
             placeholder="Search for friends"
           />
@@ -65,7 +63,7 @@ function Header() {
             alt="profile pic"
           />
         </div>
-        <p className="whitespace-nowrap ml-2 cursor-pointer font-semibold pr-3">
+        <p className="invisible lg:visible whitespace-nowrap ml-2 cursor-pointer font-semibold pr-3">
           Abhi Jha
         </p>
         <ViewGridIcon className="icon" />

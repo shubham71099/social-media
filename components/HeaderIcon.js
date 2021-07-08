@@ -1,7 +1,7 @@
 function HeaderIcon({ Icon, active }) {
   return (
     <div
-      className="hidden md:flex items-center cursor-pointer md:px-5 lg:px-10 sm:h-12 
+      className="hidden lg:flex items-center cursor-pointer md:px-5 lg:px-10 sm:h-12 
     hover:bg-blue-100 hover:animate-pulse rounded-xl active:border-b-2 active:border-blue-500 group"
     >
       <Icon

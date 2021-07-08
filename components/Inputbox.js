@@ -15,10 +15,10 @@ function Inputbox() {
       {/* Upper part of the input box */}
       <div className="flex space-x-4 p-4 items-center">
         <Image
-          className="invisible sm:visible cursor-pointer rounded-full"
+          className="cursor-pointer rounded-full"
           src={profile}
-          width={35}
-          height={35}
+          width={30}
+          height={30}
           layout="fixed"
         />
         <form className="flex flex-1">
